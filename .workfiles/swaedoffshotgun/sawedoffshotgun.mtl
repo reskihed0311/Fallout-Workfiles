@@ -1,0 +1,36 @@
+
+newmtl Material.000001
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+d 1
+Ns 65
+map_Kd textures\weapons\1handpistol\ShotgunShell.dds
+
+
+newmtl Material.000045
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+d 1
+Ns 10
+map_Kd textures\weapons\1handpistol\SawedOffShotgunNew.dds
+
+
+newmtl Material.0002d9
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+d 1
+Ns 10
+map_Kd textures\weapons\1handpistol\SawedOffShotgunNew.dds
+
+
+newmtl Material.000300
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+d 1
+Ns 10
+map_Kd textures\weapons\1handpistol\SawedOffShotgunNew.dds
+
