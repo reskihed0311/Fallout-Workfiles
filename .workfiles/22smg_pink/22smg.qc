@@ -85,7 +85,10 @@ $sequence "fire_iron" {
 $sequence "reload" {
 	"anims\reload.dmx"
 	activity "ACT_VM_RELOAD" 1
-	{ event 5004 5 "Weapon_FALLOUTGUNZ_22SMG.MagRel" }
+	{ event 5004 19 "Weapon_FALLOUTGUNZ_22SMG.MagRel" }
+	{ event 5004 20 "Weapon_FALLOUTGUNZ_22SMG.MagOut" }
+	{ event 5004 58 "Weapon_FALLOUTGUNZ_22SMG.MagHit" }
+	{ event 5004 60 "Weapon_FALLOUTGUNZ_22SMG.MagIn" }
 	fps 30
     snap
 }
@@ -93,6 +96,12 @@ $sequence "reload" {
 $sequence "reload_empty" {
 	"anims\reload_empty.dmx"
 	activity "ACT_VM_RELOAD_EMPTY" 1
+	{ event 5004 19 "Weapon_FALLOUTGUNZ_22SMG.MagRel" }
+	{ event 5004 20 "Weapon_FALLOUTGUNZ_22SMG.MagOut" }
+	{ event 5004 58 "Weapon_FALLOUTGUNZ_22SMG.MagHit" }
+	{ event 5004 60 "Weapon_FALLOUTGUNZ_22SMG.MagIn" }
+	{ event 5004 73 "Weapon_FALLOUTGUNZ_22SMG.BoltB" }
+	{ event 5004 79 "Weapon_FALLOUTGUNZ_22SMG.BoltF" }
 	fps 30
     snap
 }
@@ -101,6 +110,9 @@ $sequence "reload_empty" {
 $sequence "ready" {
 	"anims\ready.dmx"
 	activity "ACT_VM_DRAW_DEPLOYED" 1
+	{ event 5004 0 "Weapon_FALLOUTGUNZ_22SMG.Draw" }
+	{ event 5004 11 "Weapon_FALLOUTGUNZ_22SMG.BoltB" }
+	{ event 5004 22 "Weapon_FALLOUTGUNZ_22SMG.BoltF" }
 	fps 30
     snap
 }
